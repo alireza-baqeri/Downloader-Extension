@@ -89,7 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { year: 1401, term: 2, url: "https://offline.shirazu.ac.ir/14012/" },
         { year: 1402, term: 1, url: "https://offline.shirazu.ac.ir/14021/" },
         { year: 1403, term: 1, url: "https://offline.shirazu.ac.ir/14031/" },
-        { year: 1403, term: 2, url: "https://offline.shirazu.ac.ir/14032/" }
+        { year: 1403, term: 2, url: "https://offline.shirazu.ac.ir/14032/" },
+        { year: 1404, term: 1, url: "https://offline.shirazu.ac.ir/14041/" }
     ];
 
     const semesterSelect = document.getElementById('semesterSelect');
@@ -121,3 +122,4 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.tabs.create({ url: downloadLink });
     }
 });
+
